@@ -11,8 +11,10 @@
 
 
 <section>
-<form class="myForm">
-<p>Votre identité</p>
+<form>
+    <fieldset id="field1">
+     <legend id="legend1">Votre identité</legend>
+        
 
 <label for ="Nom">1. Nom:</label>
 <input type="text" name="Nom" class="border" value ="Nom">
@@ -25,11 +27,13 @@
 <input type="text" name="Adresse mail" class="border" value ="Adresse mail" >
 </form>
 </section>
-<br>
+
 
 <section>
-<form class="myForm2">
-<p>Adresse de livraison</p>
+
+<form>
+    <fieldset id="field2">
+        <legend id="legend2">Adresse de livraison</legend>
 
 <label for ="Nom"> Adresse:</label>
 <textarea name="message" class="border" value ="Adresse" ></textarea>
@@ -41,15 +45,15 @@
 <input type="text" name="Nom" class="border" value="Ville">
 </form>
 </section>
-<br>
+
+
 
 <section>
+ <form>
+    <fieldset id="field3">
+        <legend id="field3">Information de réglement</legend>
 
 
-
-
-<form class="myForm3">
-<p>Information de réglement</p>
   <label for ="Carte">1.Type de carte bancaire</label>
   <br>
   <input type="radio" name="carte" id="VISA" value="VISA">

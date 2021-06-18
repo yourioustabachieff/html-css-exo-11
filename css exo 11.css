@@ -1,23 +1,21 @@
 
-
-.myForm{
-
-    padding: 20px;
+#field1, #legend1 {
+   
     background-color: aqua;
-
+    border-color: rgb(229, 232, 235);
 }
 
-.myForm2{
+#field2, #legend2{
 
-    padding: 20px;
     background-color: cornflowerblue;
+    border-color: rgb(229, 232, 235);
     
     }
 
-.myForm3{
+    #field3, #legend3{
 
-    padding: 20px;
     background-color: royalblue;
+    border-color: rgb(229, 232, 235);
         
         }
 
@@ -58,4 +56,5 @@ textarea{
 
 
 }
+
 
