@@ -23,13 +23,6 @@
 
 
 
-        .myForm4{
-
-            
-            background-color: green;
-                
-                }
-        
 section{
 
 
@@ -43,3 +36,26 @@ section{
    border-color: darkseagreen;
    
 }
+
+.borderRed{
+
+    border: 2px black solid;
+    border-radius: 4px / 5px;
+   border-color:red;
+   background-color: rgb(139, 163, 0);
+   
+}
+
+
+input{
+
+
+    background-color: rgb(205, 209, 206);
+}
+
+textarea{
+    background-color: rgb(205, 209, 206);
+
+
+}
+
