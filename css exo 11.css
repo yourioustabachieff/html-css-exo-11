@@ -35,3 +35,11 @@ section{
 
      width: 500px;
         }
+
+.border{
+
+    border: 2px black solid;
+    border-radius: 4px / 5px;
+   border-color: darkseagreen;
+   
+}
